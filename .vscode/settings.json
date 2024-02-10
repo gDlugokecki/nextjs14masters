@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always"
+    },
+    "graphql-config.dotEnvPath": "./env",
+    "graphql-config.load.configName": "graphql",
+    "files.associations": {
+        "*.css": "tailwind"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    }
+
+}
