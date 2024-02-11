@@ -1,16 +1,19 @@
 {
-    "editor.formatOnSave": true,
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.codeActionsOnSave": {
-        "source.fixAll": "always"
-    },
-    "graphql-config.dotEnvPath": "./env",
-    "graphql-config.load.configName": "graphql",
-    "files.associations": {
-        "*.css": "tailwind"
-    },
-    "editor.quickSuggestions": {
-        "strings": true
-    }
-
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"tailwindCSS.classAttributes": ["className", "tw", "clerkAppearance.*"],
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always"
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
