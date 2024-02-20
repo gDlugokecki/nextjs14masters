@@ -1,0 +1,1 @@
+export const NUMBER_OF_PRODUCTS_ON_PAGE = 20;

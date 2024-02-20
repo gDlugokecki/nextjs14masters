@@ -1,6 +1,6 @@
 import React from "react";
-import { type ProductItemType } from "@/ui/types";
 import { ProductListItem } from "@/ui/moleculs/ProductListItem";
+import { type ProductItemType } from "@/types/Product";
 
 type ProductListProps = {
 	products: ProductItemType[];
